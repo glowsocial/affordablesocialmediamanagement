@@ -357,6 +357,61 @@ footer p {
     color: var(--glow-text-muted);
 }
 
+/* Two-Column Buyer's Guide */
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+    .two-column {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.column-card {
+    padding: 2rem;
+    border-radius: 16px;
+    border: 1px solid var(--glow-skyline);
+}
+
+.column-card h3 {
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.column-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.75rem;
+}
+
+.column-card ul li {
+    font-size: 0.9rem;
+    color: var(--glow-text-muted);
+    padding-left: 0.25rem;
+}
+
+.column-card.green {
+    background: rgba(215, 226, 120, 0.08);
+    border-color: rgba(215, 226, 120, 0.3);
+}
+
+.column-card.red {
+    background: rgba(147, 153, 204, 0.06);
+    border-color: rgba(147, 153, 204, 0.2);
+}
+
+/* Prose */
+section p+p {
+    margin-top: 1.25rem;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     section {
