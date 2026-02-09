@@ -6,10 +6,8 @@
     --glow-skyline: #ddecf7;
     --glow-white: #ffffff;
     --glow-text: #192734;
-    --glow-text-muted: rgba(25, 39, 52, 0.7);
+    --glow-text-muted: rgba(25, 39, 52, 0.6);
     --glow-border: #ddecf7;
-    --glow-shadow: 0 10px 30px -10px rgba(25, 39, 52, 0.1);
-    --glow-shadow-hover: 0 20px 40px -15px rgba(25, 39, 52, 0.15);
     --font-heading: 'Urbanist', sans-serif;
     --font-body: 'Inter', sans-serif;
 }
@@ -28,7 +26,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Typography */
 h1,
 h2,
 h3,
@@ -40,9 +37,8 @@ h4 {
     line-height: 1.2;
 }
 
-/* Layout */
 .container {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5rem;
 }
@@ -51,10 +47,10 @@ section {
     padding: 80px 0;
 }
 
-/* Buttons - Matching GlowSocial.com */
+/* Buttons */
 .btn {
     display: inline-block;
-    padding: 1rem 2rem;
+    padding: 0.875rem 2rem;
     border-radius: 12px;
     font-family: var(--font-heading);
     font-weight: 700;
@@ -75,8 +71,6 @@ section {
 
 .btn-lime:hover {
     background-color: #c7d268;
-    /* Slightly darker lime */
-    transform: scale(1.02);
 }
 
 .btn-outline {
@@ -94,7 +88,7 @@ section {
 nav {
     background: white;
     border-bottom: 1px solid var(--glow-skyline);
-    padding: 1.25rem 0;
+    padding: 1rem 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -109,16 +103,17 @@ nav {
 
 .logo {
     font-family: var(--font-heading);
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-weight: 800;
     color: var(--glow-navy);
     text-decoration: none;
+    letter-spacing: 0.05em;
 }
 
-/* Hero - Subtler than the dark sci-fi version */
+/* Hero */
 .hero {
-    padding-top: 160px;
-    padding-bottom: 80px;
+    padding-top: 140px;
+    padding-bottom: 60px;
     text-align: center;
     background: linear-gradient(to bottom right, var(--glow-paper), #ffffff);
 }
@@ -129,116 +124,119 @@ nav {
     background: var(--glow-lime);
     color: var(--glow-navy);
     border-radius: 50px;
-    font-size: 0.75rem;
+    font-family: var(--font-heading);
+    font-size: 0.7rem;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.15em;
     margin-bottom: 1.5rem;
 }
 
 .hero h1 {
-    font-size: clamp(2rem, 6vw, 3.5rem);
+    font-size: clamp(2rem, 5vw, 3rem);
     margin-bottom: 1.5rem;
 }
 
 .hero p {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     color: var(--glow-text-muted);
-    max-width: 700px;
-    margin: 0 auto 2.5rem;
+    max-width: 650px;
+    margin: 0 auto 1rem;
+}
+
+.hero p strong {
+    color: var(--glow-navy);
 }
 
 /* Answer Box */
 .answer-box {
     background: white;
-    border-radius: 24px;
-    padding: 2.5rem;
+    border-radius: 20px;
+    padding: 2rem;
     max-width: 800px;
-    margin: 3rem auto 0;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
     border: 1px solid var(--glow-skyline);
     text-align: left;
 }
 
 .answer-box-label {
     font-family: var(--font-heading);
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     font-weight: 800;
     color: var(--glow-everglow);
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     display: block;
 }
 
 .answer-box p {
-    font-size: 1.125rem;
+    font-size: 1rem;
     color: var(--glow-navy);
     margin: 0;
-    font-weight: 500;
-    line-height: 1.5;
+    font-weight: 400;
+    line-height: 1.7;
 }
 
-/* How It Works Grid */
-.steps-grid {
+/* Red Flags */
+.red-flags {
+    max-width: 650px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
-    margin-top: 3rem;
+    gap: 1rem;
 }
 
-.step-card {
-    text-align: center;
-}
-
-.step-number {
-    width: 3rem;
-    height: 3rem;
-    background: var(--glow-lime);
-    color: var(--glow-navy);
-    border-radius: 50%;
+.red-flag-item {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.25rem;
+    background: var(--glow-paper);
+    border-radius: 12px;
+}
+
+.red-flag-icon {
+    color: var(--glow-everglow);
     font-weight: 800;
     font-size: 1.25rem;
-    margin: 0 auto 1rem;
+    flex-shrink: 0;
+    margin-top: 2px;
 }
 
-.step-card h3 {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
+.red-flag-item strong {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
 }
 
-.step-card p {
-    font-size: 0.875rem;
+.red-flag-item p {
+    font-size: 0.85rem;
     color: var(--glow-text-muted);
+    margin: 0;
 }
 
-/* Cards & Comparison */
-.card {
-    background: white;
-    border-radius: 24px;
-    padding: 2rem;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.02);
-    border: 1px solid var(--glow-skyline);
-}
-
+/* Comparison Table */
 .comparison-table {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0 0.5rem;
+    font-size: 0.9rem;
 }
 
 .comparison-table th {
     text-align: left;
-    padding: 1rem;
-    font-size: 0.75rem;
+    padding: 0.75rem 1rem;
+    font-family: var(--font-heading);
+    font-size: 0.7rem;
+    font-weight: 700;
     color: var(--glow-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 
 .comparison-table td {
-    padding: 1.5rem 1rem;
+    padding: 1.25rem 1rem;
     background: white;
 }
 
@@ -251,23 +249,131 @@ nav {
 }
 
 .comparison-table .highlight td {
-    background: rgba(215, 226, 120, 0.1);
-    font-weight: 600;
+    background: rgba(215, 226, 120, 0.15);
 }
 
-.check-mark {
-    color: var(--glow-lime);
-    font-weight: bold;
-    margin-right: 0.5rem;
+/* Steps */
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.step-card {
+    text-align: center;
+}
+
+.step-number {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: var(--glow-lime);
+    color: var(--glow-navy);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1rem;
+    margin: 0 auto 0.75rem;
+}
+
+.step-card h3 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.step-card p {
+    font-size: 0.85rem;
+    color: var(--glow-text-muted);
+}
+
+/* FAQ */
+.faq-list {
+    max-width: 700px;
+    margin: 0 auto;
+    display: grid;
+    gap: 0.75rem;
+}
+
+details {
+    padding: 1.25rem 1.5rem;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid var(--glow-skyline);
+}
+
+summary {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    cursor: pointer;
+    list-style: none;
+    font-size: 0.95rem;
+    color: var(--glow-navy);
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+details p {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    color: var(--glow-text-muted);
+    line-height: 1.7;
+}
+
+/* CTA Block */
+.cta-block {
+    text-align: center;
+    background: var(--glow-navy);
+    color: white;
+    border-radius: 24px;
+    padding: 4rem 2rem;
+}
+
+.cta-block h2 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.cta-block p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    padding: 3rem 0;
+    text-align: center;
+    border-top: 1px solid var(--glow-skyline);
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: var(--glow-text-muted);
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-    .hero {
-        padding-top: 120px;
+    section {
+        padding: 60px 0;
     }
 
-    h1 {
-        font-size: 2.25rem;
+    .hero {
+        padding-top: 110px;
+        padding-bottom: 40px;
+    }
+
+    .comparison-table {
+        font-size: 0.8rem;
+        min-width: 550px;
+    }
+
+    .cta-block {
+        padding: 3rem 1.5rem;
     }
 }
