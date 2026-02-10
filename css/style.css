@@ -115,14 +115,12 @@ nav {
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--navy);
+    letter-spacing: 0.02em;
     text-decoration: none;
-}
-
-.logo img {
-    height: 36px;
-    width: auto;
 }
 
 /* --- Buttons --- */
