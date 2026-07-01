@@ -26,7 +26,7 @@ const pages = [
     <section class="container">
         <h2>The 2026 Pricing Spectrum</h2>
         <p>The cost of social media management typically scales with how much time the service saves you, and whether it includes strategy, content creation, or just publishing. In 2026, the economics of social media have dramatically shifted due to the introduction of AI and automation tools. This means traditional pricing models are being upended, giving business owners more affordable options than ever before.</p>
-        
+
         <div style="margin-top: 40px;">
             <h3>1. The DIY Route (Free – $100/mo)</h3>
             <p>Tools like Canva, Buffer, Later, and Hootsuite fall into this category. The software itself is cheap, but the true cost is hidden in the hours you spend.</p>
@@ -41,9 +41,9 @@ const pages = [
             <ul>
                 <li><strong>The Cost:</strong> $49 to $200 per month.</li>
                 <li><strong>What You Get:</strong> Fully written captions, custom graphics (or selected stock imagery), automated scheduling, and multi-platform distribution.</li>
-                <li><strong>The Reality:</strong> This approach removes the labor cost entirely. Tools like <a href="https://glowsocial.com/pricing" style="color:var(--navy);font-weight:bold;">Glow Social</a> deliver agency-quality consistency for a fraction of the price, operating effectively as an automated marketing assistant for your local business. You spend 10 minutes approving posts instead of 10 hours creating them.</li>
+                <li><strong>The Reality:</strong> This approach removes the labor cost entirely. Tools like <a href="https://boomp.net/pricing" style="color:var(--navy);font-weight:bold;">Boomp</a> deliver agency-quality consistency for a fraction of the price, operating effectively as an automated marketing assistant for your local business. You spend 10 minutes approving posts instead of 10 hours creating them.</li>
             </ul>
-            
+
             <h3 style="margin-top: 40px;">3. Freelancers & Virtual Assistants ($300 – $1,500/mo)</h3>
             <p>A good middle-ground if you want a human touch, but it comes with immense variability in quality and reliability.</p>
             <ul>
@@ -60,7 +60,7 @@ const pages = [
                 <li><strong>The Reality:</strong> This tier is built for mid-market and enterprise companies, or local businesses with massive marketing budgets. For maintaining standard posting consistency to build trust with a local audience, agencies are almost always an extreme overkill.</li>
             </ul>
         </div>
-        
+
         <div style="margin-top: 60px; padding: 40px; background: white; border-radius: var(--radius); border: 1px solid var(--border);">
             <h2>Hidden Costs to Watch Out For</h2>
             <p>When comparing prices, always ask about the hidden fees. Here are common add-ons that agencies and freelancers charge extra for:</p>
@@ -107,14 +107,14 @@ const pages = [
 
         <h2 style="margin-top: 60px;">How to Look Professional for Under $100 a Month</h2>
         <p>Instead of manually using scheduling tools that still require you to do the grueling creative work, the modern solution is to switch to "Done-For-You" AI tools.</p>
-        <p>Tools like Glow Social were built specifically to solve the consistency problem for local and small businesses. For just $49/month, the platform handles:</p>
+        <p>Tools like Boomp were built specifically to solve the consistency problem for local and small businesses. For just $49/month, the platform handles:</p>
         <ul style="margin-top: 20px; margin-bottom: 20px; padding-left: 20px; line-height: 1.8;">
             <li><strong>The Strategy:</strong> Using proven frameworks and hooks suited for local businesses.</li>
             <li><strong>The Writing:</strong> Generating captions that match your specific tone and brand voice.</li>
             <li><strong>The Imagery:</strong> Providing graphics or high-quality contextual images.</li>
             <li><strong>The Publishing:</strong> Sending the polished content directly to Facebook, Instagram, Google Business Profile, and LinkedIn.</li>
         </ul>
-        
+
         <div style="margin-top: 60px; padding: 40px; background: white; border-radius: var(--radius); border: 1px solid var(--border);">
             <h2>The Return on Investment (ROI)</h2>
             <p>At $100 a month or less, the math is extraordinarily simple.</p>
@@ -139,7 +139,7 @@ const pages = [
     </header>
 
     <section class="container">
-        
+
         <div style="margin-top: 40px; margin-bottom: 60px;">
             <h2>Understanding Your Options</h2>
             <p>The vast majority of businesses wildly overpay for social media management because they are sold solutions designed for companies 10x their size. A local HVAC company does not need the same social media strategy as Nike or Wendy's.</p>
@@ -157,7 +157,7 @@ const pages = [
                 <p><strong>Pros:</strong> You have 100% control over the exact look, sound, and feel of every post. It forces you to learn what your audience likes.</p>
                 <p><strong>Cons:</strong> As the business grows, this becomes the absolute first ball that gets dropped. Consistency plummets the minute you get a rush of clients. It is fundamentally unscalable for a busy operator.</p>
             </div>
-            
+
             <div class="column-card">
                 <h3 style="color:#5bc0de; font-size: 1.4rem;">2. Hiring a Freelancer / VA</h3>
                 <p style="margin-bottom: 15px;"><strong>Best for:</strong> Businesses doing $250k-$1M/year that need a human touch and community management.</p>
@@ -167,7 +167,7 @@ const pages = [
                 <p><strong>Pros:</strong> Cheaper than an agency, single point of contact, capable of adapting quickly to news or events. Capable of actually replying to comments and DMs.</p>
                 <p><strong>Cons:</strong> Quality varies wildly. You often still have to feed them ideas, photos, and strategy or the content becomes incredibly generic. If they quit or get sick, your marketing stops entirely.</p>
             </div>
-            
+
             <div class="column-card">
                 <h3 style="color:#f0ad4e; font-size: 1.4rem;">3. Hiring a Full-Service Agency</h3>
                 <p style="margin-bottom: 15px;"><strong>Best for:</strong> Mid-market companies, national brands, or businesses doing $5M+ per year.</p>
@@ -177,11 +177,11 @@ const pages = [
                 <p><strong>Pros:</strong> The highest quality execution. Professional video production, dedicated account managers, strategic ad scaling, PR integration, and massive teams of specialists.</p>
                 <p><strong>Cons:</strong> Extremely expensive. Vast overkill if you just need consistent, professional posts to maintain your digital footprint. Most local businesses get handed off to a junior account executive anyway.</p>
             </div>
-            
+
             <div class="column-card" style="border-left: 4px solid var(--lime); background: #fafcfa;">
                 <h3 style="color:var(--navy); font-size: 1.4rem;">4. Affordable AI Software Solutions</h3>
                 <p style="margin-bottom: 15px;"><strong>Best for:</strong> Local businesses, specialized consultants, and service providers who need consistency without the agency price tag.</p>
-                <p><strong>Tools used:</strong> Glow Social</p>
+                <p><strong>Tools used:</strong> Boomp</p>
                 <p><strong>Cost:</strong> $49 to $99/month.</p>
                 <p><strong>Time required:</strong> 10 minutes/month.</p>
                 <hr style="margin: 20px 0; border: 0; border-top: 1px solid var(--border);">
@@ -189,7 +189,7 @@ const pages = [
                 <p><strong>Cons:</strong> Cannot do high-end custom video production (like sending a camera crew to your office) or handle complex community engagement like resolving customer service complaints in the DMs.</p>
             </div>
         </div>
-        
+
         <div style="margin-top: 60px;">
             <h2>How to Make Your Decision</h2>
             <p>If you are a local roofer, a CPA, a fractional CMO, or a local salon, you fall squarely into Tier 4. Your primary goal is to look alive, active, and trustworthy online. You do not need an agency to achieve this. You need automation.</p>
@@ -200,32 +200,32 @@ const pages = [
     },
     {
         slug: 'reviews',
-        title: 'Glow Social Review: Is $49/Month Social Media Management Legit?',
-        description: 'An honest review of Glow Social for 2026. Is a $49 per month social media management service actually worth it, or is there a catch?',
+        title: 'Boomp Review: Is $49/Month Social Media Management Legit?',
+        description: 'An honest review of Boomp for 2026. Is a $49 per month social media management service actually worth it, or is there a catch?',
         content: `
     <!-- HERO -->
     <header class="hero">
         <div class="container">
             <span class="badge">In-Depth Review</span>
-            <h1>Glow Social Review: Is $49/Month Social Media Legit?</h1>
+            <h1>Boomp Review: Is $49/Month Social Media Legit?</h1>
             <p>If you're used to seeing traditional agencies pitch $1,500/month retainers just to post on your Facebook page three times a week, seeing a service promise a completely Done-For-You experience for just $49 sounds immediately suspicious.</p>
-            <p>In this comprehensive 2026 review, we break down exactly how <a href="https://glowsocial.com" style="color:var(--navy);font-weight:bold;">Glow Social</a> works, the technology driving the price down, where the system shines, and who should categorically avoid using it.</p>
+            <p>In this comprehensive 2026 review, we break down exactly how <a href="https://boomp.net" style="color:var(--navy);font-weight:bold;">Boomp</a> works, the technology driving the price down, where the system shines, and who should categorically avoid using it.</p>
         </div>
     </header>
 
     <section class="container">
-        <h2>The Core Offering: What is Glow Social?</h2>
-        <p>Glow Social is an automated, AI-driven social media management platform designed specifically to replace the entry-level tasks of a human social media manager.</p>
+        <h2>The Core Offering: What is Boomp?</h2>
+        <p>Boomp is an automated, AI-driven social media management platform designed specifically to replace the entry-level tasks of a human social media manager.</p>
         <p>For $49 a month, the system generates 12 posts per month (roughly 3 per week). These posts are fully written, paired with designated graphics or contextually appropriate imagery, and automatically scheduled and published across up to four platforms (Facebook, Instagram, LinkedIn, and TikTok/Google Business depending on configuration).</p>
 
         <h2 style="margin-top: 60px;">How Do They Keep Prices So Low? (The "Secret")</h2>
         <p>To understand the price, you have to understand where traditional agency costs come from. Traditional agencies employ armies of junior copywriters, graphic designers, social media coordinators, and account managers. When you pay a $1,500 retainer, you are paying for their salaries, their health insurance, and their office space.</p>
-        <p>Glow Social replaces the repetitive, low-level labor with highly tuned Artificial Intelligence.</p>
-        <p>During the 5-minute onboarding process, Glow Social's system scans your existing website, your past posts, and your business information to "learn" your tone. It then utilizes its proprietary "96-hook system" to automatically frame content around proven psychological hooks—educational tips, behind-the-scenes framing, myth-busting, and direct hard-sells.</p>
+        <p>Boomp replaces the repetitive, low-level labor with highly tuned Artificial Intelligence.</p>
+        <p>During the 5-minute onboarding process, Boomp's system scans your existing website, your past posts, and your business information to "learn" your tone. It then utilizes its proprietary "96-hook system" to automatically frame content around proven psychological hooks—educational tips, behind-the-scenes framing, myth-busting, and direct hard-sells.</p>
         <p>Because the AI is executing the creative labor in seconds via scalable cloud infrastructure, the cost of goods sold drops to near-zero, allowing them to pass massive savings onto the local business owner while still turning a profit.</p>
 
-        <h2 style="margin-top: 60px;">Who Is Glow Social Actually Good For?</h2>
-        <p>Glow Social is the perfect fit for "meat and potatoes" businesses that just need to maintain a professional digital footprint to establish trust. We call this "playing the game."</p>
+        <h2 style="margin-top: 60px;">Who Is Boomp Actually Good For?</h2>
+        <p>Boomp is the perfect fit for "meat and potatoes" businesses that just need to maintain a professional digital footprint to establish trust. We call this "playing the game."</p>
         <ul style="margin-top: 20px; margin-bottom: 20px; padding-left: 20px; line-height: 1.8;">
             <li><strong>Home Services:</strong> Plumbers, HVAC, Roofers, Electricians, Landscapers.</li>
             <li><strong>Professional Services:</strong> CPAs, Lawyers, Fractional Executives, Consultants.</li>
@@ -235,19 +235,19 @@ const pages = [
         <p>These businesses don't need to go viral on TikTok to survive. They need a potential client who gets referred to them to look them up, see that they posted a helpful tip two days ago, see a clean photo of their team, and conclude: "Okay, these guys are legitimate."</p>
 
         <h2 style="margin-top: 60px;">Who Should Avoid It?</h2>
-        <p>Glow Social is not magic. It cannot replace high-level strategic creative direction. You should NOT use this service if:</p>
+        <p>Boomp is not magic. It cannot replace high-level strategic creative direction. You should NOT use this service if:</p>
         <ol style="margin-top: 20px; margin-bottom: 20px; padding-left: 20px; line-height: 1.8;">
             <li><strong>You are a massive lifestyle brand:</strong> If you are selling a trendy fashion product that requires high-end studio photography and influencer seeding, AI will not cut it.</li>
-            <li><strong>You need deep community management:</strong> Glow Social posts for you. It does not reply to angry customer service tweets or manage complex DM funnels. You still need a human for that.</li>
-            <li><strong>You have a highly regulated compliance process:</strong> While Glow ensures high-quality copy, industries with extreme SEC or FDA compliance restrictions might find the automated workflow too fast-paced, though you can pause and approve all posts manually.</li>
+            <li><strong>You need deep community management:</strong> Boomp posts for you. It does not reply to angry customer service tweets or manage complex DM funnels. You still need a human for that.</li>
+            <li><strong>You have a highly regulated compliance process:</strong> While Boomp ensures high-quality copy, industries with extreme SEC or FDA compliance restrictions might find the automated workflow too fast-paced, though you can pause and approve all posts manually.</li>
         </ol>
 
         <div style="margin-top: 60px; padding: 40px; background: white; border-radius: var(--radius); border: 2px solid var(--lime);">
             <h3 style="font-size: 1.6rem; color: var(--navy);">The Final Verdict</h3>
             <p>For 90% of local, B2B, and service-based businesses, treating social media like an expensive advertising campaign engineered for virality is a catastrophic waste of money.</p>
-            <p>For these businesses, social media is an online business card. It's a trust signal. Glow Social manages that business card perfectly, reliably, and consistently for only $49 a month, freeing up your time and your budget to focus on serving your actual paying customers.</p>
+            <p>For these businesses, social media is an online business card. It's a trust signal. Boomp manages that business card perfectly, reliably, and consistently for only $49 a month, freeing up your time and your budget to focus on serving your actual paying customers.</p>
             <div style="margin-top: 30px;">
-                <a href="https://glowsocial.com/glow-social-reviews-what-customers-say/" class="btn btn-lime" style="padding: 1rem 2rem; font-size: 1rem;">Read Real Customer Reviews →</a>
+                <a href="https://boomp.net/blog/boomp-reviews-what-customers-say" class="btn btn-lime" style="padding: 1rem 2rem; font-size: 1rem;">Read Real Customer Reviews →</a>
             </div>
         </div>
     </section>
