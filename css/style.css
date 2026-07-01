@@ -254,17 +254,17 @@ nav {
     border-radius: var(--radius-sm);
 }
 
-.comparison-table tbody tr:nth-child(3) td {
-    font-weight: 600;
-    color: var(--navy);
-}
-
 .comparison-table tbody tr:nth-child(3) td:first-child {
     border-radius: var(--radius-sm) 0 0 var(--radius-sm);
 }
 
 .comparison-table tbody tr:nth-child(3) td:last-child {
     border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.comparison-table tbody tr:nth-child(3) td {
+    font-weight: 600;
+    color: var(--navy);
 }
 
 /* --- Two-Column Cards (Buyer's Guide) --- */
