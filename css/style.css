@@ -206,36 +206,6 @@ nav {
     overflow: hidden;
 }
 
-.hero::before {
-    content: "";
-    position: absolute;
-    top: -180px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 900px;
-    height: 480px;
-    background:
-        radial-gradient(closest-side, rgba(215, 226, 120, 0.28), transparent 70%);
-    pointer-events: none;
-}
-
-.hero::after {
-    content: "";
-    position: absolute;
-    bottom: -220px;
-    right: -140px;
-    width: 560px;
-    height: 480px;
-    background:
-        radial-gradient(closest-side, rgba(147, 153, 204, 0.16), transparent 70%);
-    pointer-events: none;
-}
-
-.hero .container {
-    position: relative;
-    z-index: 1;
-}
-
 .badge {
     display: inline-flex;
     align-items: center;
@@ -309,7 +279,7 @@ nav {
     left: 0;
     bottom: 0;
     width: 5px;
-    background: linear-gradient(180deg, var(--lime), var(--lime-hover));
+    background: var(--lime);
 }
 
 .answer-box-label {
@@ -546,10 +516,7 @@ details p {
 
 /* --- CTA Block --- */
 .cta-block {
-    background:
-        radial-gradient(1000px 400px at 50% -180px, rgba(215, 226, 120, 0.20), transparent 60%),
-        radial-gradient(600px 380px at 100% 120%, rgba(147, 153, 204, 0.18), transparent 65%),
-        var(--navy);
+    background: var(--navy);
     border-radius: var(--radius-lg);
     padding: 72px 40px;
     text-align: center;
