@@ -36,10 +36,10 @@ const pages = [
                 <li><strong>The Reality:</strong> For business owners whose time is worth $50-$150/hr, DIY is actually the most expensive option. Spending 20 hours a month designing graphics and writing captions is costing you $1,000 to $3,000 in lost billable time or business development.</li>
             </ul>
 
-            <h3 style="margin-top: 40px;">2. AI-Powered "Done-For-You" ($49 – $200/mo)</h3>
+            <h3 style="margin-top: 40px;">2. AI-Powered "Done-For-You" ($99 – $300/mo)</h3>
             <p>This is the fastest-growing category. Platforms use AI and machine learning to learn your brand voice and automatically generate, schedule, and publish posts for you.</p>
             <ul>
-                <li><strong>The Cost:</strong> $49 to $200 per month.</li>
+                <li><strong>The Cost:</strong> $99 to $300 per month.</li>
                 <li><strong>What You Get:</strong> Fully written captions, custom graphics (or selected stock imagery), automated scheduling, and multi-platform distribution.</li>
                 <li><strong>The Reality:</strong> This approach removes the labor cost entirely. Tools like <a href="https://boomp.net/pricing" style="color:var(--navy);font-weight:bold;">Boomp</a> deliver agency-quality consistency for a fraction of the price, operating effectively as an automated marketing assistant for your local business. You spend 10 minutes approving posts instead of 10 hours creating them.</li>
             </ul>
@@ -107,7 +107,7 @@ const pages = [
 
         <h2 style="margin-top: 60px;">How to Look Professional for Under $100 a Month</h2>
         <p>Instead of manually using scheduling tools that still require you to do the grueling creative work, the modern solution is to switch to "Done-For-You" AI tools.</p>
-        <p>Tools like Boomp were built specifically to solve the consistency problem for local and small businesses. For just $49/month, the platform handles:</p>
+        <p>Tools like Boomp were built specifically to solve the consistency problem for local and small businesses. For $99/month, the platform handles:</p>
         <ul style="margin-top: 20px; margin-bottom: 20px; padding-left: 20px; line-height: 1.8;">
             <li><strong>The Strategy:</strong> Using proven frameworks and hooks suited for local businesses.</li>
             <li><strong>The Writing:</strong> Generating captions that match your specific tone and brand voice.</li>
@@ -182,7 +182,7 @@ const pages = [
                 <h3 style="color:var(--navy); font-size: 1.4rem;">4. Affordable AI Software Solutions</h3>
                 <p style="margin-bottom: 15px;"><strong>Best for:</strong> Local businesses, specialized consultants, and service providers who need consistency without the agency price tag.</p>
                 <p><strong>Tools used:</strong> Boomp</p>
-                <p><strong>Cost:</strong> $49 to $99/month.</p>
+                <p><strong>Cost:</strong> $99 to $299/month.</p>
                 <p><strong>Time required:</strong> 10 minutes/month.</p>
                 <hr style="margin: 20px 0; border: 0; border-top: 1px solid var(--border);">
                 <p><strong>Pros:</strong> The cheapest way to entirely outsource content creation. Consistent, reliable, and leverages advanced AI to learn your brand voice automatically. It never gets sick, never takes a vacation, and never misses a post.</p>
@@ -200,15 +200,15 @@ const pages = [
     },
     {
         slug: 'reviews',
-        title: 'Boomp Review: Is $49/Month Social Media Management Legit?',
-        description: 'An honest review of Boomp for 2026. Is a $49 per month social media management service actually worth it, or is there a catch?',
+        title: 'Boomp Review: Is $99/Month Social Media Management Legit?',
+        description: 'An honest review of Boomp for 2026. Is a $99 per month done-for-you social media management service actually worth it, or is there a catch?',
         content: `
     <!-- HERO -->
     <header class="hero">
         <div class="container">
             <span class="badge">In-Depth Review</span>
-            <h1>Boomp Review: Is $49/Month Social Media Legit?</h1>
-            <p>If you're used to seeing traditional agencies pitch $1,500/month retainers just to post on your Facebook page three times a week, seeing a service promise a completely Done-For-You experience for just $49 sounds immediately suspicious.</p>
+            <h1>Boomp Review: Is $99/Month Social Media Legit?</h1>
+            <p>If you're used to seeing traditional agencies pitch $1,500/month retainers just to post on your Facebook page three times a week, seeing a service promise a completely Done-For-You experience starting at $99 sounds immediately suspicious.</p>
             <p>In this comprehensive 2026 review, we break down exactly how <a href="https://boomp.net" style="color:var(--navy);font-weight:bold;">Boomp</a> works, the technology driving the price down, where the system shines, and who should categorically avoid using it.</p>
         </div>
     </header>
@@ -216,7 +216,8 @@ const pages = [
     <section class="container">
         <h2>The Core Offering: What is Boomp?</h2>
         <p>Boomp is an automated, AI-driven social media management platform designed specifically to replace the entry-level tasks of a human social media manager.</p>
-        <p>For $49 a month, the system generates 12 posts per month (roughly 3 per week). These posts are fully written, paired with designated graphics or contextually appropriate imagery, and automatically scheduled and published across up to four platforms (Facebook, Instagram, LinkedIn, and TikTok/Google Business depending on configuration).</p>
+        <p>The Core plan costs $99 a month and generates 20 custom posts per month (roughly 5 per week). These posts are fully written, paired with designated graphics or contextually appropriate imagery, and automatically scheduled and published across up to 12 platforms (including Facebook, Instagram, LinkedIn, Google Business Profile, and TikTok depending on configuration). Every post goes through your approval before it publishes.</p>
+        <p>Two higher tiers exist for businesses that want more: the Pro plan ($149/month) adds video and carousel posts, Google Review monitoring, and performance analytics, while the Unlimited plan ($299/month) removes the monthly content ceiling entirely.</p>
 
         <h2 style="margin-top: 60px;">How Do They Keep Prices So Low? (The "Secret")</h2>
         <p>To understand the price, you have to understand where traditional agency costs come from. Traditional agencies employ armies of junior copywriters, graphic designers, social media coordinators, and account managers. When you pay a $1,500 retainer, you are paying for their salaries, their health insurance, and their office space.</p>
@@ -245,7 +246,7 @@ const pages = [
         <div style="margin-top: 60px; padding: 40px; background: white; border-radius: var(--radius); border: 2px solid var(--lime);">
             <h3 style="font-size: 1.6rem; color: var(--navy);">The Final Verdict</h3>
             <p>For 90% of local, B2B, and service-based businesses, treating social media like an expensive advertising campaign engineered for virality is a catastrophic waste of money.</p>
-            <p>For these businesses, social media is an online business card. It's a trust signal. Boomp manages that business card perfectly, reliably, and consistently for only $49 a month, freeing up your time and your budget to focus on serving your actual paying customers.</p>
+            <p>For these businesses, social media is an online business card. It's a trust signal. Boomp manages that business card perfectly, reliably, and consistently for $99 a month — a fraction of the cost of even the cheapest human alternative — freeing up your time and your budget to focus on serving your actual paying customers.</p>
             <div style="margin-top: 30px;">
                 <a href="https://boomp.net/blog/boomp-reviews-what-customers-say" class="btn btn-lime" style="padding: 1rem 2rem; font-size: 1rem;">Read Real Customer Reviews →</a>
             </div>

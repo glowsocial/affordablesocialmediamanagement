@@ -220,6 +220,39 @@ nav {
     border-bottom: var(--line);
 }
 
+/* Floating hero doodles — wide screens only, so they never clip or crowd text */
+@media (min-width: 1200px) {
+    .hero {
+        background-image: url('/assets/doodle-left.svg'), url('/assets/doodle-right.svg');
+        background-repeat: no-repeat, no-repeat;
+        background-position: calc(50% - 540px) 68%, calc(50% + 480px) 32%;
+    }
+}
+
+/* Homepage hero illustration */
+.hero-art {
+    max-width: 700px;
+    margin: 48px auto 0;
+}
+
+.hero-art svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Cost chart */
+.chart-wrap {
+    max-width: 720px;
+    margin: 0 auto 48px;
+}
+
+.chart-wrap svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 /* Marker-highlight on hero keywords */
 .hero p strong {
     background: rgba(215, 226, 120, 0.55);
@@ -455,6 +488,12 @@ section p+p {
     margin-top: 20px;
 }
 
+section .container ul li::marker,
+section .container ol li::marker {
+    color: #a9b446;
+    font-weight: 800;
+}
+
 /* --- FAQ --- */
 .faq-list {
     max-width: 720px;
@@ -624,6 +663,15 @@ footer a {
     .hero {
         padding-top: 145px;
         padding-bottom: 48px;
+        background-image: none;
+    }
+
+    .hero-art {
+        margin-top: 36px;
+    }
+
+    .chart-wrap {
+        display: none;
     }
 
     .hero p {
