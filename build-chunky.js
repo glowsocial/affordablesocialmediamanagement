@@ -4,7 +4,7 @@ const path = require('path');
 const indexHtml = fs.readFileSync('index.html', 'utf8');
 
 const headTop = indexHtml.split('<title>')[0];
-const headBottom = '</title>\n' + indexHtml.split('</title>\n')[1].split('<header class="hero">')[0];
+const headBottom = indexHtml.split('</title>')[1].split('<header class="hero">')[0];
 const footerStart = '\n    <!-- CTA: Clear, single exit to pricing -->\n' + indexHtml.split('<!-- CTA: Clear, single exit to pricing -->')[1];
 
 const pages = [
@@ -148,7 +148,7 @@ const pages = [
 
         <div class="two-column">
             <div class="column-card">
-                <h3 style="color:#d9534f; font-size: 1.4rem;">1. The "Do It Yourself" Approach</h3>
+                <h3 style="color:#b0563d; font-size: 1.4rem;">1. The "Do It Yourself" Approach</h3>
                 <p style="margin-bottom: 15px;"><strong>Best for:</strong> Pre-revenue startups and solo-preneurs with zero budget but infinite time.</p>
                 <p><strong>Tools used:</strong> Canva, Buffer, Hootsuite, ChatGPT.</p>
                 <p><strong>Cost:</strong> $0 to $100/month.</p>
@@ -159,7 +159,7 @@ const pages = [
             </div>
 
             <div class="column-card">
-                <h3 style="color:#5bc0de; font-size: 1.4rem;">2. Hiring a Freelancer / VA</h3>
+                <h3 style="color:#4a7ba6; font-size: 1.4rem;">2. Hiring a Freelancer / VA</h3>
                 <p style="margin-bottom: 15px;"><strong>Best for:</strong> Businesses doing $250k-$1M/year that need a human touch and community management.</p>
                 <p><strong>Cost:</strong> $400 to $1,500/month.</p>
                 <p><strong>Time required:</strong> 2-5 hours/month for reviews and strategy syncs.</p>
@@ -169,7 +169,7 @@ const pages = [
             </div>
 
             <div class="column-card">
-                <h3 style="color:#f0ad4e; font-size: 1.4rem;">3. Hiring a Full-Service Agency</h3>
+                <h3 style="color:#b08a3e; font-size: 1.4rem;">3. Hiring a Full-Service Agency</h3>
                 <p style="margin-bottom: 15px;"><strong>Best for:</strong> Mid-market companies, national brands, or businesses doing $5M+ per year.</p>
                 <p><strong>Cost:</strong> $2,000 to $10,000+/month.</p>
                 <p><strong>Time required:</strong> 1-3 hours/month for high-level meetings.</p>
@@ -178,7 +178,7 @@ const pages = [
                 <p><strong>Cons:</strong> Extremely expensive. Vast overkill if you just need consistent, professional posts to maintain your digital footprint. Most local businesses get handed off to a junior account executive anyway.</p>
             </div>
 
-            <div class="column-card" style="border-left: 4px solid var(--lime); background: #fafcfa;">
+            <div class="column-card" style="border-top: 4px solid var(--lime);">
                 <h3 style="color:var(--navy); font-size: 1.4rem;">4. Affordable AI Software Solutions</h3>
                 <p style="margin-bottom: 15px;"><strong>Best for:</strong> Local businesses, specialized consultants, and service providers who need consistency without the agency price tag.</p>
                 <p><strong>Tools used:</strong> Boomp</p>
@@ -264,14 +264,14 @@ pages.forEach(p => {
     const metaDescHtml = `<meta name="description" content="${p.description}">`;
     const canonicalUrl = `https://affordablesocialmediamanagement.com/${p.slug}/`;
 
-    let customHeadTop = headTop;
-    customHeadTop = customHeadTop.replace(/<meta name="description"[^>]+>/, metaDescHtml);
-    customHeadTop = customHeadTop.replace(/<link rel="canonical" href="[^"]+">/, `<link rel="canonical" href="${canonicalUrl}">`);
-    customHeadTop = customHeadTop.replace(/"https:\/\/affordablesocialmediamanagement.com\/"/g, `"${canonicalUrl}"`);
+    // The description, canonical, and FAQ schema all live AFTER </title>,
+    // so the per-page replacements must run on headBottom, not headTop.
+    let customHeadBottom = headBottom;
+    customHeadBottom = customHeadBottom.replace(/<meta name="description"[^>]+>/, metaDescHtml);
+    customHeadBottom = customHeadBottom.replace(/<link rel="canonical" href="[^"]+">/, `<link rel="canonical" href="${canonicalUrl}">`);
+    customHeadBottom = customHeadBottom.replace(/\s*<!-- FAQ Schema -->\s*<script type="application\/ld\+json">[\s\S]*?<\/script>/, '\n');
 
-    customHeadTop = customHeadTop.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, '');
-
-    const finalHtml = `${customHeadTop}<title>${p.title}</title>\n${headBottom}${p.content}${footerStart}`;
+    const finalHtml = `${headTop}<title>${p.title}</title>${customHeadBottom}${p.content}${footerStart}`;
 
     fs.writeFileSync(path.join(dir, 'index.html'), finalHtml, 'utf8');
     console.log('Built:', p.slug);
